@@ -1,0 +1,4 @@
+# Colors applied by wal_steam via pywal
+accent_color = #F85909
+background_color = #1b1b0b
+foreground_color = #c6c6c2
