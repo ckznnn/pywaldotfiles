@@ -1,0 +1,63 @@
+/* Import Pywal-generated Waybar colors */
+@import url("/home/harv/.cache/wal/colors-waybar.css");
+
+/* Base styling */
+* {
+    background: transparent;
+    color: @foreground;
+    font-family: "FiraCode Nerd Font", monospace;
+    font-size: 15px;
+}
+
+window#waybar {
+  border-radius: 12px;
+  margin: 6px;
+  padding: 4px 8px;
+  background: @background;  /* Test: should show obvious rounded corners */
+  border: 3px solid #9F99A6;
+}
+
+
+
+
+/* Module colors */
+#clock {
+    color: @color3;
+    font-weight: bold;
+}
+
+#pulseaudio {
+    color: @color4;
+}
+
+#cpu {
+    color: @color5;
+}
+
+#memory {
+    color: @color2;
+}
+
+#custom-rofi {
+    color: @color6;
+}
+
+/* Hover effects */
+#pulseaudio:hover,
+#custom-rofi:hover {
+    color: @color11;
+}
+
+/* Module spacing */
+.module {
+    background: transparent;
+    padding: 0 8px;
+}
+
+/* Sections */
+#modules-left,
+#modules-center,
+#modules-right {
+    margin: 0;
+}
+

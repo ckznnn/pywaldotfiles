@@ -1,0 +1,44 @@
+{
+  "layer": "top",
+  "position": "top",
+  "output": "HDMI-A-1",
+  "exclusive": true,
+  "fixed-center": true,
+  "gtk-layer-shell": true,
+  "height": 30,
+  "width": 1900,
+  "margin": "6 6 0 6",
+
+  "modules-left": ["custom/rofi"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "cpu", "memory"],
+
+  "custom/rofi": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "rofi -show drun"
+  },
+
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip": false
+  },
+
+  "pulseaudio": {
+    "format": "{volume}% ",
+    "format-muted": "",
+    "tooltip": false,
+    "on-click": "pavucontrol"
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "tooltip": false
+  },
+
+  "memory": {
+    "format": " {used:0.1f}G",
+    "tooltip": false
+  }
+}
+
