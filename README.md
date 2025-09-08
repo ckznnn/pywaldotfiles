@@ -4,4 +4,4 @@ wallpapers is the wallpapers
 the .sh file is my wallpaper picker script
 
 WHAT NEEDS TO BE INSTALLED 
-hyprland, kitty, vesktop, fastfetch, nvim, rofi, waybar, millennium, spotify, steam, spicetify
+hyprland, kitty, vesktop, fastfetch, nvim, rofi, waybar, spotify, steam, spicetify, walcord, pywal-16-git
